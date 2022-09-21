@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-
+// extra comment
     public static void main(String[] args) {
         ArrayList<String> alphabetic = new ArrayList<String>();
         alphabetic.add("Een");
@@ -51,7 +51,7 @@ public class Main {
                 System.out.println("Type een cijfer in van 0 t/m 9");
                 keuzenummer = userinput.nextInt();
                 if (keuzenummer <10 ){
-                trans.translate(keuzenummer);}
+                    System.out.println(trans.translate(keuzenummer));}
                 else {
                     System.out.println(keuzenummer +" is te hoog voer een getal onder de 10 in");
                 }
